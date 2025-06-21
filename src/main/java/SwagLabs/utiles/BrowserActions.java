@@ -4,12 +4,10 @@ import org.openqa.selenium.WebDriver;
 
 public class BrowserActions {
 
-    private BrowserActions() {
-    }
+    private BrowserActions() {}
 
     public static void navigateToURL(WebDriver driver, String url)
     {
-    public static void navigateToURL(WebDriver driver, String url) {
         driver.get(url);
     }
 
