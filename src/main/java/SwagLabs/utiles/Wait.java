@@ -15,7 +15,7 @@ public class Wait {
     ///  wait for Element to be Present
     public static WebElement waitElementPresent(WebDriver driver, By locator)
     {
-      WebDriverWait waits = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait waits = new WebDriverWait(driver, Duration.ofSeconds(10));
         return  waits.until(driver1 -> driver1.findElement(locator));
     }
 
@@ -23,10 +23,10 @@ public class Wait {
     public static WebElement waitElementVisible (WebDriver driver, By locator)
     {
         WebDriverWait webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(10));
-          WebElement element= webDriverWait.until(driver1->
-                { WebElement foundElement = waitElementPresent(driver,locator);
-                    return foundElement.isDisplayed() ? foundElement : null ;
-                });
+        WebElement element= webDriverWait.until(driver1->
+        { WebElement foundElement = waitElementPresent(driver,locator);
+            return foundElement.isDisplayed() ? foundElement : null ;
+        });
         return element;
     }
 
@@ -34,11 +34,11 @@ public class Wait {
     public static WebElement isClickable(WebDriver driver,By locator){
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-         WebElement element = wait.until(driver1->
-         {
-             WebElement newElement = waitElementVisible(driver,locator);
-             return newElement.isEnabled()? newElement : null;
-         });
-         return element;
+        WebElement element = wait.until(driver1->
+        {
+            WebElement newElement = waitElementVisible(driver,locator);
+            return newElement.isEnabled()? newElement : null;
+        });
+        return element;
     }
 }

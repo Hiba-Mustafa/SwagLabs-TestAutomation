@@ -15,12 +15,14 @@ public class ElementActions {
         Wait.waitElementVisible(driver,locator);
         Scrolling.scrollToElement(driver,locator);
         findElement(driver,locator).sendKeys(data);
+        driver.findElement(locator).sendKeys(data);
     }
 
     /// Click
     public static void click(WebDriver driver, By locator){
         Wait.isClickable(driver, locator);
         Scrolling.scrollToElement(driver,locator);
+        driver.findElement(locator).click();
         findElement(driver, locator).click();
     }
 
@@ -28,7 +30,7 @@ public class ElementActions {
     {
         Wait.waitElementVisible(driver, locator);
         Scrolling.scrollToElement(driver, locator);
-        return findElement(driver,locator).getText();
+        return driver.findElement(locator).getText();
 
     }
 

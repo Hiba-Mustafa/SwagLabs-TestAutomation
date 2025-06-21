@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 
 public class Scrolling {
 
-private Scrolling(){}
+    private Scrolling(){}
 
     public static void scrollToElement(WebDriver driver, By locator)
     {

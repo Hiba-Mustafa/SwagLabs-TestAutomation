@@ -9,6 +9,7 @@ public class BrowserActions {
 
     public static void navigateToURL(WebDriver driver, String url)
     {
+    public static void navigateToURL(WebDriver driver, String url) {
         driver.get(url);
     }
 
