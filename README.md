@@ -19,7 +19,7 @@ This is my first test automation project — feedback and suggestions are welcom
 src
 ├── main/java/SwagLabs
 │   ├── pages       # Page Object classes (e.g. LoginPage)
-│   └── utiles      # Reusable utility/helper classes
+│   └── utils      # Reusable utility/helper classes
 │       ├── BrowserActions.java        # Browser-level actions (e.g. navigation)
 │       ├── CustomSoftAssertion.java   # Custom soft assertion handling
 │       ├── ElementActions.java        # Reusable element interactions
@@ -76,7 +76,7 @@ Soft assertions are collected throughout the test and verified together in `@Aft
 
 Manual test cases and bug tracking for this project (Login, Product List, Product Details, Add to Cart, Checkout, Logout) are documented here:
 
-🔗 [Test Cases & Bug Report Sheet](https://docs.google.com/spreadsheets/d/17B1TMmoqmUrgtW9iC4Bf1oi5AeeXSt3D/edit?usp=sharing)
+🔗 [Test Cases & Bug Report Sheet](https://docs.google.com/spreadsheets/d/17B1TMmoqmUrgtW9iC4Bf1oi5AeeXSt3D/edit?usp=sharing&ouid=113673721732146509653&rtpof=true&sd=true)
 
 ## 📌 Notes
 
@@ -84,4 +84,4 @@ This project is a work in progress as I continue learning test automation — mo
 
 ## 👤 Author
 
-[**Heba Mostafa** ](https://www.linkedin.com/in/heba-mostafa-2512000/)
+[Heba Mostafa](https://www.linkedin.com/in/heba-mostafa-2512000)
