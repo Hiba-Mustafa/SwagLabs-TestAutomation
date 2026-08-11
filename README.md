@@ -19,7 +19,7 @@ This is my first test automation project — feedback and suggestions are welcom
 src
 ├── main/java/SwagLabs
 │   ├── pages       # Page Object classes (e.g. LoginPage)
-│   └── utils      # Reusable utility/helper classes
+│   └── utils       # Reusable utility/helper classes
 │       ├── BrowserActions.java        # Browser-level actions (e.g. navigation)
 │       ├── CustomSoftAssertion.java   # Custom soft assertion handling
 │       ├── ElementActions.java        # Reusable element interactions
@@ -47,6 +47,7 @@ A full manual test case and bug report sheet (covering Login, Product List, Prod
 - Google Chrome installed (tests run on Chrome via ChromeDriver)
 
 ### Running the tests
+
 Clone the repository and run the test suite with Maven:
 
 ```bash
@@ -68,7 +69,7 @@ public void successfulLogin() {
         .SubmitLoginButton()
         .assertSuccessLoginSoft();
 }
-
+```
 
 Soft assertions are collected throughout the test and verified together in `@AfterMethod`, so a test can report multiple failures instead of stopping at the first one.
 
@@ -84,4 +85,4 @@ This project is a work in progress as I continue learning test automation — mo
 
 ## 👤 Author
 
-## [Heba Mostafa](https://www.linkedin.com/in/heba-mostafa-2512000/)
+[Heba Mostafa](https://www.linkedin.com/in/heba-mostafa-2512000/)
