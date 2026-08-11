@@ -84,4 +84,4 @@ This project is a work in progress as I continue learning test automation — mo
 
 ## 👤 Author
 
-[Heba Mostafa](https://www.linkedin.com/in/heba-mostafa-2512000)
+## [Heba Mostafa](https://www.linkedin.com/in/heba-mostafa-2512000/)
